@@ -1,7 +1,5 @@
-export interface Order {
-  price: Number,
-  size: Number,
-}
+export interface Order {price: Number,size: Number,}
+
 /**
  * The datafeed server returns an array of ServerRespond with 2 stocks.
  * We do not have to manipulate the ServerRespond for the purpose of this task.
